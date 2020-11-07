@@ -5,7 +5,7 @@ public class WhileLoopPractice {
     public static void main(String[] args) {
         int x = 0;
 
-        while (x<5) {
+        while (x < 5) {
             System.out.println("Hi Y'All");
             x++;
         }

@@ -6,12 +6,13 @@ public class Soccer {   //parameterization of a methods
         printTeamMembers();
 
     }
-    public static void printTeamMembers (){
+
+    public static void printTeamMembers() {
         System.out.println(23);
     }
 
-    public static void printTeamMembers (int members){
-       System.out.println(members);
+    public static void printTeamMembers(int members) {
+        System.out.println(members);
 
     }
 }

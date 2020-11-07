@@ -27,29 +27,29 @@ public class Conditions {
             System.out.println("Ola amigos");
         }
         boolean IsTodaySunny = true;
-        if (IsTodaySunny){
+        if (IsTodaySunny) {
             System.out.println("let's go fishing");
         } else {
             System.out.println("Stay at home");
         }
         //     ||   ----> or
         int a = 5;
-        if (a==5 || a >6){
+        if (a == 5 || a > 6) {
             System.out.println(a);
         }
 
         //     && ------> and
-        if (a==5 && a >4) {
+        if (a == 5 && a > 4) {
             System.out.println("to day is the day " + a);
         }
         //     != -----> not equals
-        if (a != 4){
-            System.out.println("a not not equals to 4. a is "+ a);
+        if (a != 4) {
+            System.out.println("a not not equals to 4. a is " + a);
 
         }
         //     == -----> equals
 
-        if (a ==5) {
+        if (a == 5) {
             System.out.println("a is equals to " + a);
         }
 

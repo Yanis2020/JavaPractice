@@ -8,6 +8,6 @@ public class DoWhileLoop {
         do {
             System.out.println("JAVA");
             x++;
-        } while (x<5);
+        } while (x < 5);
     }
 }

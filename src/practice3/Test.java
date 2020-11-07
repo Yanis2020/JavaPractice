@@ -4,13 +4,12 @@ public class Test {
     int num;
     String name;
 
-    Test (){
+    Test() {
         System.out.println("Constructor called");
     }
 
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         Test test1 = new Test();
 
@@ -19,9 +18,10 @@ public class Test {
 
         System.out.println("---------");
         Test test = new Test();
-        test.Test2 ();
+        test.Test2();
     }
-    public void Test2 (){
+
+    public void Test2() {
         this.num = num;
         this.name = name;
         System.out.println(num);

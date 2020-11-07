@@ -8,12 +8,10 @@ public class accesSpecifers {
 
     protected static String Car = "Bentley";
 
-    public static void main (String [] args ){
+    public static void main(String[] args) {
         System.out.println(Car);
 
     }
-
-
 
 
 }

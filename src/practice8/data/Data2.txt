@@ -1,0 +1,5 @@
+The weather today is beautiful
+It is a good day to play outside
+What do you want to do today?
+for FileReaderPractice3
+

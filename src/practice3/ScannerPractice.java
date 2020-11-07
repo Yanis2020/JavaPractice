@@ -8,20 +8,22 @@ public class ScannerPractice {
         calculator();
 
     }
-    public static void nameScanner (){
+
+    public static void nameScanner() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter your name");
         String name = scanner.next();
-        System.out.println("Hi "+ name);
+        System.out.println("Hi " + name);
 
     }
-    public static void calculator (){
+
+    public static void calculator() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the first number ");
         int a = scanner.nextInt();
         System.out.println("Please enter the second number ");
         int b = scanner.nextInt();
-        int c = a+b;
+        int c = a + b;
         System.out.println("the sum is " + c);
         scanner.close();
     }

@@ -13,14 +13,14 @@ public class ScannerException {
         System.out.println("Please enter the second number");
         try {
             b = scanner.nextInt();
-        } catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("Please enter the second number");
             b = scanner.nextInt();
         }
 
 
-        int c = a+ b;
+        int c = a + b;
 
-        System.out.println( "the total is "+ c);
+        System.out.println("the total is " + c);
     }
 }

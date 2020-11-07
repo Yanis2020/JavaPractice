@@ -7,18 +7,19 @@ public class StudentClass {
         Inheritance
         Abstraction
      */
-    String nameOfStudent ;
-  //  Int IdOfStudent ;
+    String nameOfStudent;
+    //  Int IdOfStudent ;
 
+    public String getNameOfStudent() {
 
-    // setter method
-    public void setNameOfStudent (String nameOfStudent){
-        this.nameOfStudent = nameOfStudent;
+        return nameOfStudent;
     }
 
     // getter method
 
-    public String getNameOfStudent() {
-        return nameOfStudent;
+    // setter method
+    public void setNameOfStudent(String nameOfStudent) {
+
+        this.nameOfStudent = nameOfStudent;
     }
 }

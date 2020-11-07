@@ -3,19 +3,20 @@ package practice3;
 public class Calculator {
     public static void main(String[] args) {
 
-      int additionData = calculator(10,20,30);
-      int multiplicationData = calculator(3,5);
+        int additionData = calculator(10, 20, 30);
+        int multiplicationData = calculator(3, 5);
 
-       System.out.println(additionData);
-       System.out.println(multiplicationData);
+        System.out.println(additionData);
+        System.out.println(multiplicationData);
     }
 
-    public static int calculator (int a, int b, int c){
+    public static int calculator(int a, int b, int c) {
         int sum = a + b + c;
         return sum;
 
     }
-    public static int calculator (int a, int b){
+
+    public static int calculator(int a, int b) {
         int total = a * b;
         return total;
 

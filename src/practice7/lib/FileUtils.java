@@ -1,4 +1,4 @@
-package prqactice7.lib;
+package practice7.lib;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class FileUtils {
         String idName = properties.getProperty("id");
         String name = properties.getProperty("name");
         String city = properties.getProperty("city");
-        System.out.println(idName + " "+ name + " "+ city);
+        System.out.println(idName + " " + name + " " + city);
 
     }
 }
